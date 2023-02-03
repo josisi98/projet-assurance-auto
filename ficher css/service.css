@@ -1,0 +1,270 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    /* height: 100vh; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+nav{
+    padding: 0 50px;
+    width: 100%;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav{
+    padding: 0 50px;
+    width: 100%;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navbar-one{
+    background-color: #ffff;
+    color: #000fff;
+    height: 70px;
+    cursor: pointer;
+}
+
+/* .left >div + div{
+margin-left: 40px;
+}
+.right > div{
+    margin-left: 40px;
+} */
+
+.left > div:hover,
+.right >div:hover{
+    color: #000;
+    transition: all 0,5s;
+}
+
+span{
+    margin-left: 5px;
+}
+
+.navbar-second{
+    background-color: gray;
+    height: 80px;
+
+}
+
+li{
+    list-style: none;
+
+}
+
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    margin-left: 30px;
+    color: #000;
+    font-weight: 400 ;
+}
+
+img{
+    width: 100%;
+    height: 80vh; 
+}
+
+.service{
+    position: absolute;
+    bottom: 3px;
+    left: calc(50% - 250px) ;
+    display: flex;
+    justify-content:center;
+    border-radius: 40px;
+    box-shadow: #ffff;
+    background-color: #ffff;
+    max-width: 700px;
+    margin: 0 auto;
+    font-size: 25px;
+    height: 200px;
+    padding: 27px;
+}
+.serv{
+    display: flex;
+    justify-content: center;
+    color: #000fff;
+
+}
+
+.banner {
+    position: relative;
+}
+
+.loo{
+    justify-content: center;
+    margin: 20px;
+    font-size: 25px;
+}
+
+.tdt{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.hall{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+}
+
+.bar-hori{
+    width: 350px;
+    height: 1px;
+    background-color: #1406af;
+    padding: 10px;
+}
+
+.lor{
+    margin: 50px;
+    color: #1406af;
+    font-size: 30px;
+}
+
+.rem{
+    background-color: gray;
+}
+
+.stay{
+    margin: 10px;
+    width: 130px;
+    height: 70px; display: flex;
+    flex-direction: column;
+}
+
+.jojo{
+    display: flex;
+    justify-content: space-around;
+    border-radius:100px ;
+    background-color: white;
+}
+
+.pyt{
+    font-size: 30px;
+    color: #000;
+    margin: 10px;
+}
+
+.couleur{
+    color: #1406af;
+    font-size: 25px;
+    text-align: center;
+}
+
+.adj{
+    background-color: rgb(221, 215, 215);
+    border-radius: 30px;
+    width: 500px;
+}
+
+.popo{
+    display: flex;
+    justify-content: space-around;
+    margin: 60px;
+    height: 150px;
+
+}
+
+.vail{
+    background-color: ;
+}
+
+.tope{
+    font-size: 20px;
+    text-align: center;
+    padding: 15px;
+}
+
+.set{
+    height: 40px;
+    width: 100px;
+    margin-left: 370px;
+}
+
+.indiq{
+    background-color: white;
+    font-size: 20px;
+    width: 400px;
+    height: 80px;
+    text-align: center;
+    margin-left: 60px;
+    color: #e5e5eb5a;
+}
+
+.hum{
+    background-color: white;
+    text-align: center;
+}
+
+.boutton{
+    width: 100%;
+    border-radius: 12px;
+    padding: 0;
+    background-color: rgb(241, 239, 247);
+    color: rgb(116, 116, 121);
+    font-size: 20px;
+    font-weight: 5px;
+    outline:none;
+    cursor: pointer;
+    margin: 20px;
+    height: 40px;
+
+}
+
+.email{
+    background-color: rgb(154, 143, 164);
+    width: 200px;
+    text-align: center;
+    border-radius: 20px;
+    height: 60px;
+    font-size: 25px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    background-color: #1406af;
+    margin: 50px 0px 0px ;
+    border-radius: 50px;
+    box-shadow: 4px 5px black;
+
+}
+
+.bloc-service{
+    
+
+}
+
+.bloc{
+    color: #ffff;
+    font-size: 25px;
+    padding: 15px;
+}
+
+.treze{
+    color: #ffff;
+    font-size: 15px;
+    margin: 10px;
+}
