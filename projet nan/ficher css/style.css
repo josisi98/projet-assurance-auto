@@ -1,0 +1,473 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    /* height: 100vh; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+nav{
+    padding: 0 50px;
+    width: 100%;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+nav{
+    padding: 0 50px;
+    width: 100%;
+}
+
+.email{
+    background-color: rgb(154, 143, 164);
+    width: 200px;
+    text-align: center;
+    border-radius: 20px;
+    height: 60px;
+    font-size: 25px;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.navbar-one{
+    background-color: #ffff;
+    color: #000fff;
+    height: 70px;
+    cursor: pointer;
+}
+
+/* .left >div + div{
+margin-left: 40px;
+}
+.right > div{
+    margin-left: 40px;
+} */
+
+.left > div:hover,
+.right >div:hover{
+    color: #000;
+    transition: all 0,5s;
+}
+
+span{
+    margin-left: 5px;
+}
+
+.navbar-second{
+    background-color: gray;
+    height: 80px;
+
+}
+
+li{
+    list-style: none;
+
+}
+
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 16px;
+    margin-left: 30px;
+    color: #000;
+    font-weight: 400 ;
+}
+
+
+img{
+    width: 100%;
+    height: 75vh;
+    
+}
+
+
+.tayler{
+    padding: 20px;
+    font-size: 20px;
+    color: #000fff;
+    text-align: center;
+    font-size: 30px;
+}
+
+.container{
+    max-width: 450px;
+    margin: 10px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,3);
+    top: 1000px;
+    left: 35px;
+}
+
+.cont{
+    text-align:right;
+    font-size: 25px;
+}
+
+.call{
+    line-height: 1.4;
+}
+
+.enf{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20%;
+    float: left;
+    margin: 0px 20px 5px 0;
+}
+
+.enfts{
+     width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20%;
+    float: left;
+    margin: 0 20px 5px 0;
+}
+.first {
+    display: flex;
+    justify-content: space-around;
+}
+
+.second {
+    display: flex;
+    justify-content: space-around;
+}
+
+.josi{
+    max-width: 450px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0,0,0,3);
+    margin: 0 20px 5px 0;
+    height: 250px;
+    padding: 10px;
+}
+
+
+
+.jim{
+    text-align: right;
+    font-size: 25px;
+}
+
+.flo{
+  max-width: 450px;
+  margin: 10px;
+  padding: 30px;
+  border-radius: 15px;
+ box-shadow: 5px 5px 15px rgba(0,0,0,3);
+ width: 900px;
+ top: 300px;
+ right: 0px;
+}
+
+.en-t{
+    
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20%;
+    float: left;
+    margin: 0 20px 5px 0;
+    position: relative;
+
+}
+
+.ehh{
+    max-width: 450px;
+  margin: 10px;
+  padding: 40px;
+  border-radius: 15px;
+ box-shadow: 5px 5px 15px rgba(0,0,0,3);
+ width: 900px;
+ top: 300px;
+ right: 725px;
+    
+}
+
+.fhum{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 20%;
+    float: left;
+    shape-outside: margin-box;
+    margin: 0 20px 5px 0; 
+    
+}
+
+.oui{
+    max-width: 1000px;
+  margin: 10px;
+  padding: 30px;
+  border-radius: 15px;
+ box-shadow: 5px 5px 15px rgba(0,0,0,3);
+ width: 900px;
+ top: 600px;
+ right: 100px;
+}
+
+.uno{
+    display: flex;
+    justify-content:center;
+}
+
+.mot{
+    width: 500px;
+    height: 170px;
+    object-fit: cover;
+    border-radius: 40%;
+    float: left;
+    shape-outside: margin-box;
+    margin: 0 30px 5px 0px;
+    margin-left: 10;
+    
+}
+
+button{
+    width: 100%;
+    border-radius: 12px;
+    padding: 0;
+    background-color: rgb(241, 239, 247);
+    color: rgb(116, 116, 121);
+    font-size: 20px;
+    font-weight: 5px;
+    outline:none;
+    cursor: pointer;
+    margin: 20px;
+    height: 40px;
+
+}
+
+.ty{
+    padding: 20px;
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+    font-size: 45px;
+    
+}
+
+.td3{
+   font-size: 40px;
+   text-align: center;
+   padding: 13px;
+   color: #1406af;
+}
+
+.td4{
+    padding: 20px;
+    color: #000;
+    text-align: center;
+    font-size: 30px;
+}
+
+.td5{
+    font-size: 30px;
+    padding: 20px;
+    color: #1406af;
+    text-align: center;
+}
+
+.tret{
+    display:flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.third{
+    display: flex;
+    text-justify:distribute;
+}
+
+.fourth{
+    display: flex;
+    text-justify: newspaper;
+}
+
+.align{
+    margin: 20px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.fonte{
+    margin: 20px;
+    color:#1406af;
+}
+
+.klm{
+    color: #1406af;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.tableau{
+    border-collapse: collapse;
+    border: 2px solid midnightblue;
+    height: 70px;
+}
+
+thead tr{
+    background-color: #1406af;
+    height:60px;
+    text-align: center;
+    color: #ffff;
+    font-size: 20px;
+}
+
+.td,th{
+    padding: 20px; 
+}
+
+tbody tr,td,th{
+    border: 3px solid #dddd;
+    font-size: 25px;
+    height: 15px;
+    padding: 10px;
+}
+
+.tdt{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.kmll{
+    padding: 15px;
+    margin: 20px;
+}
+
+.pop{
+    padding: 10px;
+    color: #1406af;
+    display: flex;
+    justify-content: center;
+}
+
+.stay{
+    margin: 10px;
+    width: 20px;
+    height: 50px; display: flex;
+    flex-direction: column;
+}
+
+.state{
+    display: flex;
+}
+
+.yoo{
+    
+    width: 10px;
+}
+
+tbody{
+    vertical-align: sub;
+}
+
+.hip{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bar-hori{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(179, 177, 177);
+}
+
+.kacen{
+    color: #1406af;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.kac{
+    color: #1406af;
+    display: flex;
+    justify-content: center;
+    font-size: 20px; 
+    margin: 50px;
+}
+
+.man{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    color: #1406af;
+    font-size: 30px;
+}
+
+.insut{
+    color: #1406af;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.soto{
+    padding: 15px;
+    font-size: 17px;
+}
+
+.devis{
+   max-width: 400px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   background-color:gray;
+   margin: auto;
+   font-size: 40px;
+   color: #1406af;
+   padding: 40px; 
+   box-shadow:  10px 20px#000;
+   
+
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    background-color: #1406af;
+    margin: 50px 0px 0px ;
+    border-radius: 50px;
+    box-shadow: 4px 5px black;
+
+}
+
+.bloc-service{
+    
+
+}
+
+.bloc{
+    color: #ffff;
+    font-size: 25px;
+    padding: 15px;
+}
+
+.treze{
+    color: #ffff;
+    font-size: 15px;
+    margin: 10px;
+}
